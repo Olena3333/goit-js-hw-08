@@ -12,8 +12,8 @@ function onPlay(playTime) {
 
     }
 
-player.on('play', throttle(onPlay, 1000));        
-player.setCurrentTime(localStorage.getItem(key) || 0)
+player.on('timeupdate', throttle(onPlay, 1000));        
+player.setCurrentTime(localStorage.getItem(key) || 0);
 
     
 
