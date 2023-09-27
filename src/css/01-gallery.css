@@ -10,8 +10,6 @@
   grid-auto-rows: 240px;
   grid-gap: 12px;
   justify-content: center;
-  padding: 0;
-  list-style: none;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,26 +39,4 @@
 
 .gallery__link:hover {
   cursor: zoom-in;
-}
-
-.feedback-form {
-  width: 480px;
-}
-
-.feedback-form > label {
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-}
-
-.feedback-form input,
-.feedback-form textarea {
-  font: inherit;
-  padding: 8px;
-}
-
-.feedback-form textarea {
-  resize: none;
 }

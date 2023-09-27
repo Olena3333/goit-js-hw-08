@@ -1,3 +1,4 @@
+
 import throttle from 'lodash.throttle';
 const refs = {
   inputNameEl: document.querySelector('.feedback-form [name="name"]'),
